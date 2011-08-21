@@ -13,18 +13,21 @@ Gem::Specification.new do |s|
   s.description = %q{ }
   s.email = %q{mjbellantoni@yahoo.com}
   s.extra_rdoc_files = [
-    "README.rdoc"
+    "README.md"
   ]
   s.files = [
     ".document",
     ".rspec",
     "Gemfile",
     "Gemfile.lock",
-    "README.rdoc",
+    "README.md",
     "Rakefile",
     "VERSION",
     "jquery-mobile-rails.gemspec",
     "lib/jquery-mobile-rails.rb",
+    "lib/jquery-mobile/rails.rb",
+    "lib/jquery-mobile/rails/engine.rb",
+    "lib/jquery-mobile/rails/version.rb",
     "vendor/assets/javascripts/jquery.mobile.js",
     "vendor/assets/javascripts/jquery.mobile.min.js",
     "vendor/assets/stylesheets/jquery.mobile.css",
