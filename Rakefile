@@ -17,26 +17,13 @@ Jeweler::Tasks.new do |gem|
   gem.name = "jquery-mobile-rails"
   gem.homepage = "http://github.com/mjbellantoni/jquery-mobile-rails"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{This gem provides jQuery Mobile for your Rails 3.1 application.}
+  gem.description = %Q{ }
   gem.email = "mjbellantoni@yahoo.com"
   gem.authors = ["Matthew J. Bellantoni"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
-
-require 'rspec/core'
-require 'rspec/core/rake_task'
-RSpec::Core::RakeTask.new(:spec) do |spec|
-  spec.pattern = FileList['spec/**/*_spec.rb']
-end
-
-RSpec::Core::RakeTask.new(:rcov) do |spec|
-  spec.pattern = 'spec/**/*_spec.rb'
-  spec.rcov = true
-end
-
-task :default => :spec
 
 require 'rake/rdoctask'
 Rake::RDocTask.new do |rdoc|
