@@ -22,7 +22,7 @@ The current version of this gem provides jQuery Mobile v1.0a4.1.
   <th>jQuery Mobile Version</th>
 </tr>
 <tr>
-  <td>1.0.0</td><td>1.0a4.1</td>
+  <td>1.0.0</td><td>1.0b2</td>
 </tr>
 </table>
 
