@@ -12,7 +12,7 @@ To use jQuery Mobile add this line to `application.js`:
 
 ### Current ###
 
-The current version of this gem provides jQuery Mobile v1.0a4.1.
+The current version of this gem provides jQuery Mobile v1.0b2.
 
 ### Crosswalk ###
 
